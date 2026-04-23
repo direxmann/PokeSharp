@@ -1,4 +1,6 @@
-Mon thème : Un jeu Pokemon en CSharp (PokeSharp)
+# PokeSharp
+
+Mon thème : Jeu Pokemon en CSharp (PokeSharp)
 
 En une phrase, ce que fait mon application : Mon application permet de faire un combat Pokémon première gen en 1v1
 
