@@ -16,14 +16,14 @@ namespace PokeSharp.Models.Pokemons
         private Type type;
         private List<Attaque> attaques;
 
-        public Pokemon(string nomPokemon, int pvMax, int niveau, Type type)
+        public Pokemon(string nomPokemon, int pvMax, int niveau, Type type, List<Attaque> attaques)
         {
             this.nomPokemon = nomPokemon;
             this.pvMax = pvMax;
             this.pvActuel = pvMax;
             this.niveau = niveau;
             this.type = type;
-            this.attaques = new List<Attaque>();
+            this.attaques = attaques;
         }
 
         public abstract void Attaquer(Pokemon cible, Attaque attaque);

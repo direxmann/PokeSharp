@@ -8,7 +8,7 @@ namespace PokeSharp.Models.Pokemons
 {
     public class PokemonPlante : Pokemon
     {
-        public PokemonPlante(string nomPokemon, int pvMax, int niveau, Type plante, <Attaque> attaques) : base(nomPokemon, pvMax, niveau, plante, attaques)
+        public PokemonPlante(string nomPokemon, int pvMax, int niveau, Type plante, List<Attaque> attaques) : base(nomPokemon, pvMax, niveau, plante, attaques)
         {
         }
         public override void Attaquer(Pokemon cible, Attaque attaque)
